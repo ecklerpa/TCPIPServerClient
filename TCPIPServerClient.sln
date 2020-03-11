@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPIPServer", "TCPIPServer\TCPIPServer.csproj", "{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClassLibs", "CommonClassLibs\CommonClassLibs.csproj", "{982ABBFD-9569-4725-AEAD-5BB75DC18A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPIPClient", "TCPIPClient\TCPIPClient.csproj", "{46830595-D4F0-4F6D-9B96-96ECCA271DBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982ABBFD-9569-4725-AEAD-5BB75DC18A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982ABBFD-9569-4725-AEAD-5BB75DC18A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982ABBFD-9569-4725-AEAD-5BB75DC18A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982ABBFD-9569-4725-AEAD-5BB75DC18A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
